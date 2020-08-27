@@ -1,6 +1,12 @@
 .navbar-brand {
-    color: white;
+    color: white!important;
     background-color: teal;
     font-weight: bold;
     font-size:26px;
+}
+
+.aboutmepic {
+    height:200px;
+    width:200px;
+    float:left;
 }
