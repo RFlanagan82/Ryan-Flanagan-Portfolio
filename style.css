@@ -1,3 +1,6 @@
-.navbar-navmr automt-2mt-lg-0 {
-    float: right !important;
+.navbar-brand {
+    color: white;
+    background-color: teal;
+    font-weight: bold;
+    font-size:26px;
 }
