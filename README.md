@@ -6,3 +6,5 @@
 <!--Worked with tutor Ariel Razon who helped me understand how to force change font color for my name in the nav as well as helping me understand in page linking structure from one page to another on the site.
 
 Ariel also helped me better understand how to structure the elements in the nav bar.>
+
+Jonathan Canales provided me with his Ul class code structure to correctly format the Nav bar elements.
