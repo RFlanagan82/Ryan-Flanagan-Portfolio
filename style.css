@@ -1,3 +1,7 @@
+html {
+    background-image: url('https://assets.awwwards.com/awards/images/2015/04/pattern.jpg');
+}
+
 body {
     background-image: url('https://assets.awwwards.com/awards/images/2015/04/pattern.jpg');
     background-repeat: no-repeat;
@@ -11,6 +15,18 @@ body {
     font-weight: bold;
     font-size:26px;
 }
+
+.container {
+    margin:50px,0px,25px,0px;
+}
+
+.abouttext{
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 36px;
+    color: teal;
+}
 .ryanpic {
     height:150px;
     width:150px;
@@ -21,6 +37,27 @@ body {
     margin:5px;
     padding:10px;
 }
+
+#hidden {
+    visibility:hidden;
+    display:none;
+}
+
+.text-center {
+    position: fixed;
+    background-color:#606060;
+    opacity: .70;
+    bottom : 0;
+    height:50px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lato';
+    
+
+}
+
+
 
 
   
