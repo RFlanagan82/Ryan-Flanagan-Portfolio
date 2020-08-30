@@ -17,12 +17,12 @@
         <!--Here is where I put in the Navigation Bar -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="./index.html">Ryan Flanagan</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
         <!--Here is where I put in the site nav elements-->
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link" href="./contact.html">Contact <span class="sr-only">(current)</span></a>
@@ -31,7 +31,7 @@
               <a class="nav-link" href="./portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="./index.html" tabindex="-1" aria-disabled="true">About</a>
+              <a class="nav-link" href="./index.html" id ="active" tabindex="-1" aria-disabled="true">About</a>
             </li>
           </ul>
         </div>
@@ -40,19 +40,26 @@
       <div class="container"><!--Will contain the content in container-->
         <div class="row"><!--Defining the 1st row-->
           <div class="col-sm-8"><!--Breaking the first row into 8 cols and 4 cols-->
-            <div class="card" style="width: 18rem;"><!--Creating a card in the 8 col-->
+            <div class="card"><!--Creating a card in the 8 col-->
               <div class="card-body"><!--Giving the card a defined line-->
                 <div class="row"><!--Defining the row inside of the 8 columns group-->
-                  <div class="col-sm-12"><!--Validating 12 new columns within parent-->
+                  <div class="col-lg-12"><!--Validating 12 new columns within parent-->
                     <H3 class="abouttext">About Me</H3><!--providing Card text header-->
                   </div>
                 </div>
                 <div class="row"><!--Creating next row for image and copy-->
-                  <div class="col-sm-4">
+                  <div class="col-lg-3 col-md-4 col-sm-5">
                     <img class="ryanpic" src="./Assets/Ryan_Flanagan picture.jpg" alt="rflanaganpic">
                   </div><!--4 columns needed for picture-->
-                  <div class="col-sm-8"><!--8 columns needed for text-->
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla odio necessitatibus, suscipit doloremque, ut autem, libero maxime consequuntur ad molestiae id sit expedita maiores. Alias quibusdam qui quas provident possimus!</p>
+                  <div class="col-lg-9 col-md-8 col-sm-7"><!--8 columns needed for text-->
+                    <p class="biocopy">I am a proven high-performer with over 15 years of marketing and business experience to include: innovating product at Fortune 100 company leading to $76M+ increase in new customer revenue, doubling a B2B marketing agency's client base, and as a tech start-up entrepreneur.
+
+                      Transitioning towards software development so that I can leverage all of my skills to create better digital experiences that are both highly engaging and value-driven.
+                      
+                      My technical knowledge and experience includes the following platforms:
+                      Adobe Creative Cloud, JIRA, Tableau, Trello, Google Analytics, MySQL, SQLite, HTML, CSS, Zapier, Kissflow, SharePoint, Salesforce CRM, Hubspot CRM, Slack, Hootsuite, Mailchimp, Zendesk, ManyChat, Wordpress, and Camtasia
+                      
+                      Let's connect and have a conversation. </p>
                   </div><!--Close of text section-->
                 </div><!--Close of image and copy section-->
               </div><!--Close of Card Body Section-->
@@ -63,5 +70,5 @@
         </div> <!--Will contain the columns needed for the content-->
       </div>
 
-    </body>
+  </body>
 </html>

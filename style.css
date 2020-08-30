@@ -12,7 +12,15 @@ body {
     font-size:26px;
 }
 .ryanpic {
-    height:200px;
-    width:200px;
+    height:150px;
+    width:150px;
     float:left;
 }
+
+.biocopy {
+    margin:5px;
+    padding:10px;
+}
+
+
+  
