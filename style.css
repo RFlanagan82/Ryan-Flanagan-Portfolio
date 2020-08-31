@@ -6,7 +6,6 @@ body {
     background-image: url('https://assets.awwwards.com/awards/images/2015/04/pattern.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
-    float: left;
     width: auto;
 }
 .navbar-brand {
@@ -17,7 +16,11 @@ body {
 }
 
 .container {
-    margin:50px,0px,25px,0px;
+    margin:50px 0px 25px 0px;
+}
+
+.contentgroup {
+    background-color: white;
 }
 
 .abouttext{
@@ -37,6 +40,7 @@ body {
 }
 
 .ryanpic {
+    margin-right:20px;
     height:150px;
     width:150px;
     float:left;
