@@ -36,8 +36,46 @@
           </ul>
         </div>
       </nav><!--This is the end of the Nav Bar Section-->
-          
+        
+      <div class="container"><!--Will contain the content in container-->
+        <div class="row"><!--Defining the 1st row-->
+          <div class="col-lg-8"><!--Breaking the first row into 8 cols and 4 cols-->
+            <div class="card"><!--Creating a card in the 8 col-->
+              <div class="card-body"><!--Giving the card a defined line-->
+                <div class="row"><!--Defining the row inside of the 8 columns group-->
+                  <div class="col-lg-12" id="contactmeline"><!--Validating 12 new columns within parent-->
+                    <H3 class="abouttext">Contact</H3><!--providing Card text header-->
+                  </div>
+                </div>
+                <form>
+                  <div class="form-row">
+                    <label for="inputCity">Name</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="Name">
+                  </div>
+                  <div class="form-row">
+                    <label for="exampleFormControlInput1">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                  </div>
+                  <div class="form-row">
+                    <label for="inputCity">Message</label>
+                    <input type="text" class="form-control" id="inputMessage" placeholder="Message">
+                  </div>
+                  <button type="Submit" class="btn btn-primary">Submit</button>
+                </form>
+                  </div><!--Close of text section-->
+                </div><!--Close of image and copy section-->
+              </div><!--Close of Card Body Section-->
+            </div><!--Close of Card Element Section-->
+          <div class="col-md-4" id="hidden"></div><!--Will remain empty on Index page-->
+        </div><!--Complete end of About Me row content taking 8 columns -->
+      </div><!--End of Container-->
 
-
-    </body>
+    <footer class="row" id="footer"> <!--Footer Row Content-->
+      <div class="card"><!--The content in this div gets wrapped in a card-->
+        <div class="text-center">
+          <p class="footertext">© 2020. Ryan Flanagan</p>
+        </div>
+      </div>
+    </footer><!--End of Footer Row Content-->
+  </body>
 </html>
