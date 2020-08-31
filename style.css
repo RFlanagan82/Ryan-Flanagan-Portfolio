@@ -29,6 +29,7 @@ body {
     letter-spacing: 2px;
     font-size: 36px;
     color: teal;
+    margin-top: 15px;
 }
 
 .contacttext {
@@ -37,6 +38,23 @@ body {
     letter-spacing: 2px;
     font-size: 36px;
     color: teal;
+}
+
+#contentbox {
+    margin-bottom:30px;
+}
+
+form {
+    margin-right:100px;
+    margin-left:30px;
+}
+.btn-primary {
+    margin-top: 5px;
+    height:50px;
+    width:100px;
+    background-color: teal;
+    border: none;
+    margin-left: -15px!important;
 }
 
 .ryanpic {
