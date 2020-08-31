@@ -1,11 +1,12 @@
 html {
-    background-image: url('https://assets.awwwards.com/awards/images/2015/04/pattern.jpg');
+   
 }
 
 body {
     background-image: url('https://assets.awwwards.com/awards/images/2015/04/pattern.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
+    background-size: cover;
     width: auto;
 }
 .navbar-brand {
@@ -23,7 +24,12 @@ body {
     background-color: white;
 }
 
-.abouttext{
+.galleryimage {
+    width: auto;
+    max-width: 100%;
+    padding: 20px;
+}
+.headertext{
     font-family: 'Source Serif Pro', serif;
     font-weight: bold;
     letter-spacing: 2px;
@@ -76,6 +82,7 @@ form {
 
 .text-center {
     position: fixed;
+    color: lightgray;
     background-color:#606060;
     opacity: .70;
     bottom : 0;
