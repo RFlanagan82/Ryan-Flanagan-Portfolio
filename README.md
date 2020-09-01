@@ -8,3 +8,5 @@
 Ariel also helped me better understand how to structure the elements in the nav bar.>
 
 Jonathan Canales provided me with his Ul class code structure to correctly format the Nav bar elements.
+
+On 8-31-2020, I worked with tutor Andrew Hardemon who helped me with nuanced CSS formatting to include adding in my Horizontal Rule tags under my page headers, adding a border top on my footer for asthetics. He also helped me in troubleshooting my Portfolio page borders and margins.
