@@ -1,7 +1,7 @@
 # Ryan-Flanagan-Portfolio
 
 ## Description
-The portflio site contained in this repository has been created from the skills I've learned thus far within the Georgia Tech Coding Bootcamp - Fall 2020 cohort.
+The portfolio site contained in this repository has been created from the skills I've learned thus far within the Georgia Tech Coding Bootcamp - Fall 2020 cohort.
 
 This site contains 3 pages to include:
 
